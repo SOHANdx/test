@@ -1,0 +1,68 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #f2f2f2;
+  font-family: sans-serif;
+}
+#main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 920px;
+   margin: 200px auto; 
+  padding: 10px;
+}
+
+
+
+.single-card{
+  width: 205px;
+  margin: 10px;
+  background: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+box-shadow: 5px 5px 10px #B1B1B1,
+          -5px -5px 10px #f0f0f0;
+}
+.single-card >.img-card{
+  max-width: 100%;
+}
+
+img{
+  width: 180px;
+  border-radius: 20px;
+}
+.single-card >p{
+  width: 200px;
+  color: #a2a2a2;
+  font-size: 15px;
+  font-weight: bold;
+}
+.single-card >h2{
+  color: #FF7600;
+}
+h3{
+  font-weight: bold;
+  color: #ff4900;
+}
+.ratting{
+  font-size: 20px;
+  color: #FFA902;
+}
+button{
+  background: #f0f0f0;
+  color: #FF7600;
+  font-size: 20px;
+  transition: 0.5s;
+  border: 2px solid #FFFFFF;
+  padding: 10px 15px;
+  border-radius: 10px 20px 10px 20px;
+  margin: 20px 0px;
+}
+button:hover{
+  color: #FF4900;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid #FF6D00;
+}
